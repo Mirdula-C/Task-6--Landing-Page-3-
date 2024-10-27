@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Featured Courses</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMbcG5hb5g6Zod5yZ5Bf9XoS4EkxBBH5I2tcP/B" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        /* Custom hover effect for cards */
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        /* Custom button style with image */
+        .btn-custom {
+            background-image: url('images/2nd page image/explore btn color.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        /* Custom styles for floating images */
+        .floating-icon {
+            position: absolute;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            object-fit: cover;
+        }
+        /* Positioning for the quote section */
+        .quote-section {
+            position: absolute;
+            top: 40%;
+            right: 20%;
+            transform: translateY(-50%);
+            z-index: 10;
+            max-width: 250px;
+        }
+    </style>
+</head>
+<body class="bg-blue-50 font-sans antialiased">
+
+<!-- Header -->
+<section class="bg-gradient-to-br from-purple-700 to-blue-500 text-white">
+  <header class="flex items-center justify-between px-10 py-5 bg-white shadow-md text-black h-20">
+    <img src="images/1st page image/page_1_Logo.jpeg" alt="Logo" class="w-40 h-18 rounded-full">
+    <nav class="flex space-x-10 font-semibold">
+      <a href="#" class="hover:text-purple-500">Home</a>
+      <a href="#" class="hover:text-purple-500">About</a>
+      <a href="#" class="hover:text-purple-500">Courses</a>
+      <a href="#" class="hover:text-purple-500">Contact</a>
+    </nav>
+    <div class="flex space-x-10">
+      <button class="text-purple-500 font-semibold">Login</button>
+      <button class="bg-gradient-to-r from-purple-600 to-blue-500 text-white px-4 py-2 rounded-md font-semibold">Signup</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative flex flex-col md:flex-row items-center justify-between h-screen px-8 -mt-10">
+    <div class="md:w-1/2 space-y-4 text-center md:text-left absolute" style="top: 286px; left: 147px;">
+        <h3 class="text-sm uppercase tracking-wide">Successful Coaches Are Visionaries</h3>
+        <h1 class="text-5xl font-bold leading-tight mt-6">
+            Good <span class="text-blue-300">coaching</span> is good teaching & nothing else.
+        </h1>
+        <div class="mt-8 flex space-x-4">
+            <button class="px-6 py-3 bg-white text-indigo-700 font-semibold rounded-md hover:bg-gray-100" style="width: 194.25px; height: 60px;">
+                View Courses
+            </button>
+            <button class="px-6 py-3 border border-white text-white font-semibold rounded-md hover:bg-gray-100 hover:text-indigo-700" style="width: 282px; height: 60px;">
+                Get Free Consultation
+            </button>
+        </div>
+        <div class="mt-8 flex items-center bg-white rounded-full shadow-md overflow-hidden max-w-lg mx-auto md:mx-0" style="width: 489px; height: 70px;">
+            <input type="text" placeholder="What do you want to learn today?" class="w-full px-4 py-3 text-gray-700 focus:outline-none">
+            <button class="px-6 py-3 bg-indigo-500 text-white font-semibold">Search</button>
+        </div>
+    </div>
+    
+    <!-- Testimonial Section -->
+    <div class="absolute" style="top: 327px; left: 984px; width: 272px; height: 158px;">
+        <div class="p-4 bg-white bg-opacity-10 rounded-lg shadow-md flex flex-col justify-between h-full">
+            <p class="text-blue-300 font-semibold">Shyam</p>
+            <p class="text-sm text-white leading-snug mt-2">
+                In a coaching role, you ask the questions and rely more on your staff, who become the experts, to provide the information.
+            </p>
+            <p class="text-blue-300 mt-2 text-right font-semibold">4.9</p>
+        </div>
+    </div>
+
+    <!-- Image of the Person -->
+    <div class="absolute" style="top: 119px; left: 1256px;">
+        <img src="images/1st page image/girl.jpeg" alt="Person" class="w-[514px] h-auto rounded-lg shadow-xl">
+    </div>
+  </section>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gradient-to-r from-purple-800 to-blue-700 py-10">
+    <div class="container mx-auto flex items-center justify-center gap-16">
+        <img src="images/1st page image/spotify_logo-removebg-preview.png" alt="Spotify" class="w-24 h-16 filter invert brightness-200">
+        <img src="images/1st page image/amazon logo.png" alt="Amazon" class="w-24 h-16 filter invert brightness-200">
+        <img src="images/1st page image/spotify_logo-removebg-preview.png" alt="Spotify" class="w-24 h-16 filter invert brightness-200">
+        <img src="images/1st page image/cisco logo.png" alt="Cisco" class="w-24 h-16 filter invert brightness-200">
+        <img src="images/1st page image/logitech logo.png" alt="Logitech" class="w-24 h-16 filter invert brightness-200">
+        <img src="images/1st page image/amazon logo.png" alt="Amazon" class="w-24 h-16 filter invert brightness-200">
+    </div>
+</footer>
+
+</body>
+</html>
